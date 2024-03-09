@@ -1,0 +1,41 @@
+@media print {
+
+    /* Se aplicará la siguiente regla CSS */
+    button,
+    [type="button"],
+    [type="submit"],
+    [type="reset"] {
+      display: none;
+    }
+
+    .noprint{
+        display: none;
+    }
+    .saltopagina{
+        page-break-before:always;
+    }
+    
+    .container{
+      margin: 0 !important; 
+      padding: 0 !important;
+    }
+    .row {
+      width: 21.59cm;
+      height: 27.94 cm;
+      margin: 0 !important; 
+      padding: 0 !important;
+      overflow: hidden;
+    }
+      
+      
+}
+.hoja{
+    height: 27.94cm;
+}
+/*.fondo {
+    background-image: url(./imagenes/fondo.png);
+    background-size: 100% auto;
+    background-position: center top;
+    /*background-repeat: no-repeat;
+    padding-top: 12rem;
+   }*/
